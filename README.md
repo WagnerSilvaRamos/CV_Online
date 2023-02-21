@@ -1,6 +1,10 @@
-# testei18n
+# Cv Online
 
-> My superior Nuxt.js project
+> 
+Projeto CV online Desenvolvido com Nuxt JS e I18n em 4 idiomas (Português, Inglês, Espanhol e Alemão )
+
+![cv_online](https://user-images.githubusercontent.com/19785853/220439659-4fd1e99f-9d6b-4267-bb85-3ded7e3640e4.jpg)
+
 
 ## Build Setup
 
