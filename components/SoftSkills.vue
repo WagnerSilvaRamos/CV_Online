@@ -54,11 +54,22 @@
     border-radius: 10px;
     border: #fccf02 3px solid;
     background: transparent;
+    max-width: 70%;
   }
 
   .progress-bar {
     background-color: #fccf02;
     border-radius: 15px;
+  }
+  img {
+    max-width: 100%;
+    align-self: flex-start;
+  }
+}
+
+@media screen and (max-width: 736px) {
+  .softskills {
+    margin-bottom: 3rem;
   }
 }
 </style>

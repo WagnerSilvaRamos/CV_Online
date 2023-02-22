@@ -17,7 +17,7 @@
       </li>
       <li>
         <img src="~/assets/programmer-icon.png" alt="Programmer" />
-        <span>programming</span>
+        <span>Programming</span>
       </li>
     </ul>
   </div>
@@ -30,7 +30,7 @@
   flex-direction: column;
   margin-bottom: 2rem;
   ul {
-    margin: 0.7rem 0 0;
+    margin: 0.9rem 0 0;
     padding: 0;
     list-style: none;
     display: flex;

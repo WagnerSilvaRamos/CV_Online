@@ -102,4 +102,20 @@ export default {
 .links {
   padding-top: 15px;
 }
+
+@media screen and (max-width: 736px) {
+  body,
+  html {
+    overflow-x: hidden;
+  }
+  html {
+    font-size: 16px;
+  }
+  .row {
+    margin: 0 auto 2rem auto;
+  }
+  h2 {
+    font-size: 1.7rem !important;
+  }
+}
 </style>

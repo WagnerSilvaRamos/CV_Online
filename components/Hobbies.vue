@@ -36,7 +36,7 @@
     text-align: left;
 
     li {
-      margin-bottom: 1.3rem;
+      margin-bottom: 0.9rem;
       align-items: center;
       span {
         color: #fff;

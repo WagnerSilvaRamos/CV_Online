@@ -102,4 +102,24 @@
 ::-webkit-scrollbar-thumb:hover {
   background: #fccf02;
 }
+
+@media screen and (max-width: 736px) {
+  .infosExperience {
+    margin-bottom: 3rem;
+    h3 {
+      clear: left;
+    }
+    p {
+      max-width: 11rem;
+      width: 100%;
+      font-size: 1rem;
+      line-height: 1.5rem;
+      clear: left;
+    }
+    strong {
+      font-size: 0.9rem;
+      margin: -1.3rem 1.5rem 0 0;
+    }
+  }
+}
 </style>

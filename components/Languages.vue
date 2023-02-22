@@ -43,7 +43,7 @@
   flex-direction: column;
   margin-bottom: 2rem;
   ul {
-    margin: 0.7rem 0 0;
+    margin: 1.4rem 0 0;
     padding: 0;
     list-style: none;
     display: flex;
@@ -77,7 +77,8 @@
         height:15px
       }
     }
-  }
+     }
+      img{ max-width:100%}
   h2 {
     font-size: 2rem;
     line-height: 2.5rem;

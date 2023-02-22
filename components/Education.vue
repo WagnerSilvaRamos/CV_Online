@@ -59,4 +59,24 @@
     width: 65%;
   }
 }
+
+@media screen and (max-width: 736px) {
+  .infosEducation {
+    strong {
+      display: block;
+    }
+    h3 {
+      margin: 0.7rem 0 0;
+      clear: left;
+    }
+    p {
+      font-size: 1rem;
+      line-height: 1.5rem;
+      max-width: 17rem;
+      width: 100%;
+      clear: left;
+      margin: 0.7rem 0 2rem 0;
+    }
+  }
+}
 </style>

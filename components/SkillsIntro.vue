@@ -39,4 +39,12 @@ ul {
     margin: 0 0.5rem 0 0;
   }
 }
+
+@media screen and (max-width: 736px) {
+  ul li span {
+    font-size: 0.9rem !important;
+    line-height: 1.5rem;
+    margin-right: 0.3rem;
+  }
+}
 </style>

@@ -16,4 +16,11 @@
     text-align: left;
   }
 }
+
+@media screen and (max-width: 736px) {
+  .introtext p {
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+  }
+}
 </style>
