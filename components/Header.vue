@@ -67,4 +67,38 @@ header {
     line-height: 2.3rem;
   }
 }
+
+@media screen and (max-width: 736px) {
+  body,
+  html {
+    overflow-x: hidden;
+  }
+  html {
+    font-size: 16px;
+  }
+  p {
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+  }
+
+  header {
+    h1 {
+      font-size: 2rem;
+      line-height: 2.5rem;
+      max-width: 15rem;
+    }
+
+    h2 {
+      font-size: 1.3rem;
+      line-height: 1.9rem;
+    }
+  }
+  .languages {
+    top: 0 !important;
+    right: 0 !important;
+    img {
+      max-width: 40px;
+    }
+  }
+}
 </style>

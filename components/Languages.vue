@@ -1,6 +1,6 @@
 <template>
-  <div class="languages">
-    <h2 data-aos="fade-in" data-aos-delay="800">{{ $t("titleLanguages") }}</h2>
+  <div class="languages" data-aos="fade-in" data-aos-delay="700">
+    <h2 data-aos="fade-in" data-aos-delay="700">{{ $t("titleLanguages") }}</h2>
     <img
       src="~/assets/short_line.png"
       alt="Linha acabamento divisão de blocos"

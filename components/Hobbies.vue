@@ -1,6 +1,6 @@
 <template>
-  <div class="hobbies">
-    <h2>{{ $t("titleHob") }}</h2>
+  <div class="hobbies" data-aos="zoom-in" data-aos-delay="700">
+    <h2 data-aos="fade-in" data-aos-delay="700">{{ $t("titleHob") }}</h2>
     <img
       src="~/assets/short_line.png"
       alt="Linha acabamento divisão de blocos"

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="infosEducation" data-aos="fade-left" data-aos-delay="1050">
+    <div class="infosEducation" data-aos="fade-left" data-aos-delay="2000">
       <h2>{{ $t("titleEducation") }}</h2>
       <img
         src="~/assets/long_line.png"

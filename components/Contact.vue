@@ -1,5 +1,5 @@
 <template>
-  <div class="contact">
+  <div class="contact" data-aos="fade-left" data-aos-delay="2100">
     <h2>{{ $t("titleContact") }}</h2>
     <img
       src="~/assets/short_line.png"

@@ -1,5 +1,5 @@
 <template>
-  <div class="follow" data-aos="fade-right" data-aos-delay="1050">
+  <div class="follow" data-aos="fade-right" data-aos-delay="2000">
     <h2>{{ $t("titleFollow") }}</h2>
     <img
       src="~/assets/short_line.png"
@@ -8,7 +8,10 @@
 
     <ul>
       <li>
-        <a href="https://www.linkedin.com" target="_blank" title="Linkedin"
+        <a
+          href="https://www.linkedin.com/in/wagner-ramos-53a3116/"
+          target="_blank"
+          title="Linkedin"
           ><img src="~/assets/linkedin.png" alt="Linkedin" />Linkedin</a
         >
       </li>
