@@ -86,6 +86,7 @@ export default {
           titleHob: "Hobbies",
           titleInterests: "Interesses",
           txtFooter: "Projeto desenvolvido com Nuxt e i18n por Wagner Ramos",
+          titleLanguages: "Idiomas",
         },
         en: {
           welcome: "Welcome",
@@ -109,6 +110,7 @@ export default {
           titleHob: "Hobbys",
           titleInterests: "interests",
           txtFooter: "Project developed with Nuxt and i18n by Wagner Ramos",
+          titleLanguages: "Languages",
         },
         es: {
           welcome: "Bienvenido",
@@ -132,6 +134,7 @@ export default {
           titleHob: "Aficiones",
           titleInterests: "intereses",
           txtFooter: "Proyecto desarrollado con Nuxt e i18n por Wagner Ramos",
+          titleLanguages: "Idiomas",
         },
         de: {
           welcome: "Willkommen",
@@ -155,6 +158,7 @@ export default {
           titleHob: "Hobbys ",
           titleInterests: "Interessen",
           txtFooter: "Projekt entwickelt mit Nuxt und i18n von Wagner Ramos",
+          titleLanguages: "Sprachen",
         },
       },
     },

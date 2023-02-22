@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div data-aos="fade-right" data-aos-delay="1500">
     <ul>
       <li>
         <img src="~/assets/html.png" alt="HTML 5" /><span>{{

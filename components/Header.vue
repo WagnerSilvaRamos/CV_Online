@@ -1,8 +1,8 @@
 <template>
   <header>
     <div class="container">
-      <h1>{{ $t("nameUser") }}</h1>
-      <h2>{{ $t("Profession") }}</h2>
+      <h1 data-aos="fade-in" data-aos-delay="500">{{ $t("nameUser") }}</h1>
+      <h2 data-aos="zoom-in" data-aos-delay="1000">{{ $t("Profession") }}</h2>
       <TxtIntro />
       <SkillsIntro />
       <NavBar />

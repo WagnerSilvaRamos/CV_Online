@@ -1,5 +1,5 @@
 <template>
-  <div class="languages">
+  <div class="languages" data-aos="fade-down" data-aos-delay="1800">
     <ul>
       <li>
         <nuxt-link v-if="$i18n.locale !== 'en'" :to="switchLocalePath('en')">

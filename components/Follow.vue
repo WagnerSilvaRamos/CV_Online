@@ -1,5 +1,5 @@
 <template>
-  <div class="follow">
+  <div class="follow" data-aos="fade-right" data-aos-delay="1050">
     <h2>{{ $t("titleFollow") }}</h2>
     <img
       src="~/assets/short_line.png"

@@ -23,7 +23,7 @@
     <div class="row">
       <div class="col-md-4 col-sm-12 col-xs-12"><Hobbies /></div>
       <div class="col-md-4 col-sm-12 col-xs-12"><Interests /></div>
-      <div class="col-md-4 col-sm-12 col-xs-12"></div>
+      <div class="col-md-4 col-sm-12 col-xs-12"><Languages /></div>
     </div>
   </div>
   <!--end .container-->
@@ -38,6 +38,10 @@ import SoftSkills from "~/components/SoftSkills.vue";
 import Courses from "~/components/Courses.vue";
 import Hobbies from "~/components/Hobbies.vue";
 import Interests from "~/components/Interests.vue";
+import Languages from "~/components/Languages.vue";
+
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export default {
   name: "index",
@@ -50,10 +54,15 @@ export default {
     Courses,
     Hobbies,
     Interests,
+    Languages,
   },
 
   head() {
     return this.$nuxtI18nHead({ addSeoAttributes: true });
+  },
+
+  mounted() {
+    AOS.init({});
   },
 };
 </script>

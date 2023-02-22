@@ -1,6 +1,6 @@
 <template>
   <div class="introtext">
-    <p>{{ $t("txtIntro") }}</p>
+    <p data-aos="fade-up">{{ $t("txtIntro") }}</p>
   </div>
 </template>
 
