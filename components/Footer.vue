@@ -25,6 +25,17 @@ img {
   position: relative;
   top: -0.5rem;
 }
+@media screen and (max-width: 736px) {
+  img {
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 737px) and (max-width: 991px) {
+  p {
+    font-size: 1rem !important;
+  }
+}
 </style>
 
 <script>

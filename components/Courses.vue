@@ -118,4 +118,14 @@
     }
   }
 }
+
+@media (min-width: 737px) and (max-width: 991px) {
+  .infosCourses {
+    ul {
+      li {
+        font-size: 1rem;
+      }
+    }
+  }
+}
 </style>

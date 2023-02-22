@@ -101,4 +101,24 @@ header {
     }
   }
 }
+
+@media (min-width: 737px) and (max-width: 991px) {
+  header {
+    h1 {
+      font-size: 2.2rem;
+      line-height: 2.5rem;
+    }
+    h2 {
+      font-size: 1.5rem !important;
+      line-height: 2rem;
+    }
+    .languages {
+      top: 0 !important;
+      right: 0 !important;
+      img {
+        max-width: 40px;
+      }
+    }
+  }
+}
 </style>

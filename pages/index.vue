@@ -62,7 +62,7 @@ export default {
   },
 
   mounted() {
-    AOS.init({});
+    AOS.init({ disable: "mobile" });
   },
 };
 </script>
@@ -116,6 +116,26 @@ export default {
   }
   h2 {
     font-size: 1.7rem !important;
+  }
+}
+
+@media (min-width: 737px) and (max-width: 991px) {
+  body,
+  html {
+    overflow-x: hidden;
+  }
+  html {
+    font-size: 16px;
+  }
+  .row {
+    margin: 0 auto 2rem auto;
+  }
+  h2 {
+    font-size: 1.7rem !important;
+  }
+  p {
+    font-size: 1.1rem !important;
+    line-height: 1.5rem;
   }
 }
 </style>

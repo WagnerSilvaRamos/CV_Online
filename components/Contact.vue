@@ -89,4 +89,11 @@
     line-height: 1.5rem;
   }
 }
+
+@media (min-width: 737px) and (max-width: 991px) {
+  .contact ul li a {
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+  }
+}
 </style>

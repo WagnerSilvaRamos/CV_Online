@@ -122,4 +122,19 @@
     }
   }
 }
+
+@media (min-width: 737px) and (max-width: 991px) {
+  .infosExperience {
+    margin: 0.3rem 0 2rem 0;
+    p {
+      margin: 0 0 2rem 0;
+      font-size: 1rem !important;
+      max-width: 18rem;
+      width: 100%;
+    }
+    img {
+      max-width: 100%;
+    }
+  }
+}
 </style>

@@ -23,4 +23,13 @@
     line-height: 1.5rem;
   }
 }
+
+@media (min-width: 737px) and (max-width: 991px) {
+  .introtext p {
+    font-size: 1.1rem !important;
+    line-height: 1.5rem;
+    max-width: 30rem;
+    width: 100%;
+  }
+}
 </style>

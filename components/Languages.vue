@@ -88,4 +88,18 @@
     margin: 0.7rem 0 1rem 0;
   }
 }
+
+@media (min-width: 737px) and (max-width: 991px) {
+.languages {
+  ul li{ max-width: 140px;
+    img {
+        margin: 0 0.1rem 0 0;
+        float: left;
+        max-width: 100%;
+        width:10px;
+        height:10px
+}
+  }
+}
+}
 </style>
