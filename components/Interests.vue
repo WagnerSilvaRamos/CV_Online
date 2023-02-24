@@ -80,4 +80,25 @@
     margin: 0.7rem 0 1rem 0;
   }
 }
+
+/* override styles when printing */
+@media print {
+  .interests {
+    ul {
+      display: block;
+    }
+    li {
+      max-width: 100%;
+      width: 100%;
+      clear: left !important;
+      display: block !important;
+    }
+    li span {
+      color: #000 !important;
+    }
+    ul li img {
+      display: none;
+    }
+  }
+}
 </style>

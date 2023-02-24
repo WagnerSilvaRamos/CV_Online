@@ -9,28 +9,105 @@
     <ul>
       <li>
         <h3>English</h3>
-        <img src="~/assets/full_bullet.png" alt="Language English" data-aos="zoom-in" data-aos-delay="850"/>
-        <img src="~/assets/full_bullet.png" alt="Language English" data-aos="zoom-in" data-aos-delay="900"/>
-        <img src="~/assets/full_bullet.png" alt="Language English" data-aos="zoom-in" data-aos-delay="950" />
-        <img src="~/assets/full_bullet.png" alt="Language English" data-aos="zoom-in" data-aos-delay="1000" />
-        <img src="~/assets/empty_bullet.png" alt="Language English" data-aos="zoom-in" data-aos-delay="1050" />
+        <span>Avançado</span>
+        <img
+          src="~/assets/full_bullet.png"
+          alt="Language English"
+          data-aos="zoom-in"
+          data-aos-delay="850"
+        />
+        <img
+          src="~/assets/full_bullet.png"
+          alt="Language English"
+          data-aos="zoom-in"
+          data-aos-delay="900"
+        />
+        <img
+          src="~/assets/full_bullet.png"
+          alt="Language English"
+          data-aos="zoom-in"
+          data-aos-delay="950"
+        />
+        <img
+          src="~/assets/full_bullet.png"
+          alt="Language English"
+          data-aos="zoom-in"
+          data-aos-delay="1000"
+        />
+        <img
+          src="~/assets/empty_bullet.png"
+          alt="Language English"
+          data-aos="zoom-in"
+          data-aos-delay="1050"
+        />
       </li>
       <li>
-       <h3>Spanish</h3>
-        <img src="~/assets/full_bullet.png" alt="Language Spanish" data-aos="zoom-in" data-aos-delay="1100" />
-        <img src="~/assets/full_bullet.png" alt="Language Spanish" data-aos="zoom-in" data-aos-delay="1150" />
-        <img src="~/assets/full_bullet.png" alt="Language Spanish" data-aos="zoom-in" data-aos-delay="1200" />
-        <img src="~/assets/full_bullet.png" alt="Language Spanish" data-aos="zoom-in" data-aos-delay="1250"/>
-        <img src="~/assets/empty_bullet.png" alt="Language Spanish"data-aos="zoom-in" data-aos-delay="1300" />
+        <h3>Spanish</h3>
+        <span>Avançado</span>
+        <img
+          src="~/assets/full_bullet.png"
+          alt="Language Spanish"
+          data-aos="zoom-in"
+          data-aos-delay="1100"
+        />
+        <img
+          src="~/assets/full_bullet.png"
+          alt="Language Spanish"
+          data-aos="zoom-in"
+          data-aos-delay="1150"
+        />
+        <img
+          src="~/assets/full_bullet.png"
+          alt="Language Spanish"
+          data-aos="zoom-in"
+          data-aos-delay="1200"
+        />
+        <img
+          src="~/assets/full_bullet.png"
+          alt="Language Spanish"
+          data-aos="zoom-in"
+          data-aos-delay="1250"
+        />
+        <img
+          src="~/assets/empty_bullet.png"
+          alt="Language Spanish"
+          data-aos="zoom-in"
+          data-aos-delay="1300"
+        />
       </li>
       <li>
-          <h3>German</h3>
-        <img src="~/assets/full_bullet.png" alt="Language German" data-aos="zoom-in" data-aos-delay="1350"/>
-        <img src="~/assets/full_bullet.png" alt="Language German" data-aos="zoom-in" data-aos-delay="1400"/>
-        <img src="~/assets/full_bullet.png" alt="Language German" data-aos="zoom-in" data-aos-delay="1450"/>
-        <img src="~/assets/empty_bullet.png" alt="Language German" data-aos="zoom-in" data-aos-delay="1500"/>
-        <img src="~/assets/empty_bullet.png" alt="Language German" data-aos="zoom-in" data-aos-delay="1550"/>
-      </li>
+        <h3>German</h3>
+        <span>Intermediário</span>
+        <img
+          src="~/assets/full_bullet.png"
+          alt="Language German"
+          data-aos="zoom-in"
+          data-aos-delay="1350"
+        />
+        <img
+          src="~/assets/full_bullet.png"
+          alt="Language German"
+          data-aos="zoom-in"
+          data-aos-delay="1400"
+        />
+        <img
+          src="~/assets/full_bullet.png"
+          alt="Language German"
+          data-aos="zoom-in"
+          data-aos-delay="1450"
+        />
+        <img
+          src="~/assets/empty_bullet.png"
+          alt="Language German"
+          data-aos="zoom-in"
+          data-aos-delay="1500"
+        />
+        <img
+          src="~/assets/empty_bullet.png"
+          alt="Language German"
+          data-aos="zoom-in"
+          data-aos-delay="1550"
+        />
       </li>
     </ul>
   </div>
@@ -73,12 +150,17 @@
         margin: 0 0.2rem 0 0;
         float: left;
         max-width: 100%;
-        width:15px;
-        height:15px
+        width: 15px;
+        height: 15px;
+      }
+      span {
+        display: none;
       }
     }
-     }
-      img{ max-width:100%}
+  }
+  img {
+    max-width: 100%;
+  }
   h2 {
     font-size: 2rem;
     line-height: 2.5rem;
@@ -90,16 +172,27 @@
 }
 
 @media (min-width: 737px) and (max-width: 991px) {
-.languages {
-  ul li{ max-width: 140px;
-    img {
+  .languages {
+    ul li {
+      max-width: 140px;
+      img {
         margin: 0 0.1rem 0 0;
         float: left;
         max-width: 100%;
-        width:10px;
-        height:10px
-}
+        width: 10px;
+        height: 10px;
+      }
+    }
   }
 }
+
+/* override styles when printing */
+@media print {
+  .languages {
+    span {
+      display: block !important;
+      color: #000 !important;
+    }
+  }
 }
 </style>

@@ -103,6 +103,10 @@ export default {
   padding-top: 15px;
 }
 
+.print_skill {
+  display: none;
+}
+
 @media screen and (max-width: 736px) {
   body,
   html {
@@ -136,6 +140,59 @@ export default {
   p {
     font-size: 1.1rem !important;
     line-height: 1.5rem;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1530px) {
+  body,
+  html {
+    overflow-x: hidden;
+  }
+  html {
+    font-size: 16px;
+  }
+  .row {
+    margin: 0 auto 2rem auto;
+  }
+  h2 {
+    font-size: 1.7rem !important;
+  }
+  p {
+    font-size: 1.1rem !important;
+    line-height: 1.5rem;
+  }
+}
+
+/* override styles when printing */
+@media print {
+  body {
+    margin: 0;
+    color: #000 !important;
+    background-color: #fff;
+  }
+
+  .laguages,
+  img {
+    display: none;
+  }
+
+  p,
+  a {
+    font-size: 13pt;
+    color: #000 !important;
+  }
+
+  .introtext {
+    max-width: 50rem !important;
+  }
+  h1,
+  h2,
+  h3 {
+    color: #000 !important;
+    text-align: left !important;
+  }
+  .print_skill {
+    display: block !important;
   }
 }
 </style>

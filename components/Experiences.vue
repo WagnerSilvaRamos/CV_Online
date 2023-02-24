@@ -137,4 +137,15 @@
     }
   }
 }
+
+/* override styles when printing */
+@media print {
+  .infosExperience {
+    max-height: 100%;
+    height: auto;
+  }
+  .infosExperience p {
+    width: 85% !important;
+  }
+}
 </style>

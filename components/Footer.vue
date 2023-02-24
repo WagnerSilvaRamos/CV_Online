@@ -27,13 +27,22 @@ img {
 }
 @media screen and (max-width: 736px) {
   img {
-    max-width: 100%;
+    display: none;
   }
 }
 
 @media (min-width: 737px) and (max-width: 991px) {
   p {
     font-size: 1rem !important;
+  }
+  img {
+    display: none;
+  }
+}
+/* override styles when printing */
+@media print {
+  p {
+    display: none;
   }
 }
 </style>

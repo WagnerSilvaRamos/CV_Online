@@ -9,21 +9,25 @@
     <div class="progress active" style="height: 15px">
       <div class="progress-bar" style="width: 80%; height: 11px"></div>
     </div>
+    <span>80%</span>
 
     <h3>{{ $t("textCriative") }}</h3>
     <div class="progress active" style="height: 15px">
       <div class="progress-bar" style="width: 90%; height: 11px"></div>
     </div>
+    <span>80%</span>
 
     <h3>{{ $t("txtTeamwork") }}</h3>
     <div class="progress active" style="height: 15px">
       <div class="progress-bar" style="width: 85%; height: 11px"></div>
     </div>
+    <span>85%</span>
 
     <h3>{{ $t("txtOrganization") }}</h3>
     <div class="progress active" style="height: 15px">
       <div class="progress-bar" style="width: 95%; height: 11px"></div>
     </div>
+    <span>95%</span>
   </div>
 </template>
 
@@ -65,11 +69,29 @@
     max-width: 100%;
     align-self: flex-start;
   }
+
+  span {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 736px) {
   .softskills {
     margin-bottom: 3rem;
+  }
+}
+
+/* override styles when printing */
+@media print {
+  .softskills {
+    .progress {
+      display: none;
+    }
+    span {
+      display: block;
+      color: #000;
+      text-align: left;
+    }
   }
 }
 </style>

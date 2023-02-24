@@ -70,4 +70,14 @@
     margin: 0.7rem 0 1rem 0;
   }
 }
+
+/* override styles when printing */
+@media print {
+  .follow {
+    a {
+      display: block !important;
+      color: rgb(132, 76, 223) !important;
+    }
+  }
+}
 </style>

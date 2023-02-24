@@ -61,4 +61,14 @@
     margin: 0.7rem 0 1rem 0;
   }
 }
+
+/* override styles when printing */
+@media print {
+  .hobbies {
+    li span {
+      clear: left;
+      color: #000 !important;
+    }
+  }
+}
 </style>

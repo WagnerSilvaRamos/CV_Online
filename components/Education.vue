@@ -97,4 +97,11 @@
     }
   }
 }
+
+/* override styles when printing */
+@media print {
+  .infosEducation strong {
+    color: #000 !important;
+  }
+}
 </style>

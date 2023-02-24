@@ -128,4 +128,20 @@
     }
   }
 }
+
+/* override styles when printing */
+@media print {
+  .infosCourses {
+    max-height: 100% !important;
+    height: auto !important;
+    overflow: visible !important;
+    ul {
+      li {
+        font-size: 1rem;
+        font-weight: 400 !important;
+        color: #000 !important;
+      }
+    }
+  }
+}
 </style>
