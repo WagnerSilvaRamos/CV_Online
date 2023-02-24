@@ -1,5 +1,5 @@
 <template>
-  <div class="softskills" data-aos="fade-right" data-aos-delay="2400">
+  <div class="softskills" data-aos="fade-right" data-aos-delay="1000">
     <h2>Soft Skills</h2>
     <img
       src="~/assets/short_line.png"
