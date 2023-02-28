@@ -7,6 +7,7 @@
             src="~/assets/icons8-usa-48.png"
             alt="English Language"
             title="English Language"
+            loading="lazy"
           />
         </nuxt-link>
       </li>
@@ -17,6 +18,7 @@
             src="~/assets/icons8-brazil-48.png"
             alt="Portuguese Language"
             title="Portuguese Language"
+            loading="lazy"
           />
         </nuxt-link>
       </li>
@@ -27,6 +29,7 @@
             src="~/assets/icons8-spain-48.png"
             alt="Spanish Language"
             title="Spanish Language"
+            loading="lazy"
           />
         </nuxt-link>
       </li>
@@ -37,6 +40,7 @@
             src="~/assets/icons8-germany-48.png"
             alt="Deustch Language"
             title="Deustch Language"
+            loading="lazy"
           />
         </nuxt-link>
       </li>

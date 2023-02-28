@@ -4,12 +4,17 @@ export default {
    ** Headers of the page
    */
 
+  router: { base: "/clientes/cvonline" },
+
   head() {
     return this.$nuxtI18nHead({ addSeoAttributes: true });
   },
 
   head: {
     title: "Wagner Ramos CV",
+    htmlAttrs: {
+      lang: "pt",
+    },
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
@@ -19,7 +24,33 @@ export default {
         content: "curriculum Wagner Ramos ",
       },
     ],
-    link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
+    link: [
+      { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
+      {
+        rel: "canonical",
+        href: "http://www.wagneramos.com.br/clientes/cvonline",
+      },
+      {
+        rel: "alternate",
+        hreflang: "en",
+        href: "http://www.wagneramos.com.br/clientes/cvonline/en",
+      },
+      {
+        rel: "alternate",
+        hreflang: "pt",
+        href: "http://www.wagneramos.com.br/clientes/cvonline/",
+      },
+      {
+        rel: "alternate",
+        hreflang: "es",
+        href: "http://www.wagneramos.com.br/clientes/cvonline/es",
+      },
+      {
+        rel: "alternate",
+        hreflang: "de",
+        href: "http://www.wagneramos.com.br/clientes/cvonline/de",
+      },
+    ],
   },
   /*
    ** Customize the progress-bar color

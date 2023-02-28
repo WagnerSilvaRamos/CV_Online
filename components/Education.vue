@@ -5,6 +5,7 @@
       <img
         src="~/assets/long_line.png"
         alt="Linha acabamento divisão de blocos"
+        loading="lazy"
       />
       <strong>2007 / 2009</strong>
       <h3>Técnico em Informática</h3>

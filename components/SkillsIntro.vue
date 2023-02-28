@@ -2,17 +2,20 @@
   <div data-aos="fade-right" data-aos-delay="2400">
     <ul>
       <li>
-        <img src="~/assets/html.png" alt="HTML 5" /><span class="print_skill"
+        <img src="~/assets/html.png" alt="HTML 5" loading="lazy" /><span
+          class="print_skill"
           >HTML 5</span
         ><span>{{ $t("skillIntro") }}</span>
       </li>
       <li>
-        <img src="~/assets/css.png" alt="CSS 2 e 3" /><span class="print_skill"
+        <img src="~/assets/css.png" alt="CSS 2 e 3" loading="lazy" /><span
+          class="print_skill"
           >CSS 2 e 3</span
         ><span>{{ $t("skillIntro") }}</span>
       </li>
       <li>
-        <img src="~/assets/js.png" alt="Javascript" /><span class="print_skill"
+        <img src="~/assets/js.png" alt="Javascript" loading="lazy" /><span
+          class="print_skill"
           >Javascript</span
         ><span>{{ $t("skillIntro") }}</span>
       </li>

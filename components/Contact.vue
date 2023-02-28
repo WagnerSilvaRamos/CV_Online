@@ -4,6 +4,7 @@
     <img
       src="~/assets/short_line.png"
       alt="Linha acabamento divisão de blocos"
+      loading="lazy"
     />
 
     <ul>
@@ -12,12 +13,17 @@
           ><img
             src="~/assets/tel.png"
             alt="Telefone de contato +55 11 9 6574-5723"
+            loading="lazy"
           />+55 (011) 96574-5723</a
         >
       </li>
       <li>
         <a href="mailto:'qa302655@gmail.com' " target="_blank" title="Mail"
-          ><img src="~/assets/mail.png" alt="Email" />qa302655@gmail.com</a
+          ><img
+            src="~/assets/mail.png"
+            alt="Email"
+            loading="lazy"
+          />qa302655@gmail.com</a
         >
       </li>
       <li>
@@ -25,13 +31,17 @@
           href="http://www.wagneramos.com.br"
           target="_blank"
           title="Portfolio Online"
-          ><img src="~/assets/site.png" alt="Linkedin" />Portfolio Online</a
+          ><img
+            src="~/assets/site.png"
+            alt="Linkedin"
+            loading="lazy"
+          />Portfolio Online</a
         >
       </li>
       <li>
         <a href="#" target="_blank" title="Location"
-          ><img src="~/assets/address.png" alt="Linkedin" />São Paulo -
-          Brazil</a
+          ><img src="~/assets/address.png" alt="Linkedin" loading="lazy" />São
+          Paulo - Brazil</a
         >
       </li>
     </ul>

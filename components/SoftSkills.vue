@@ -4,6 +4,7 @@
     <img
       src="~/assets/short_line.png"
       alt="Linha acabamento divisão de blocos"
+      loading="lazy"
     />
     <h3>{{ $t("textComunicacao") }}</h3>
     <div class="progress active" style="height: 15px">

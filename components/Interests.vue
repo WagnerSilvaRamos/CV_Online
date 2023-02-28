@@ -4,19 +4,24 @@
     <img
       src="~/assets/short_line.png"
       alt="Linha acabamento divisão de blocos"
+      loading="lazy"
     />
 
     <ul>
       <li>
-        <img src="~/assets/icon_design.png" alt="Design" />
+        <img src="~/assets/icon_design.png" alt="Design" loading="lazy" />
         <span>Design</span>
       </li>
       <li>
-        <img src="~/assets/icon_ux.png" alt="UX" />
+        <img src="~/assets/icon_ux.png" alt="UX" loading="lazy" />
         <span>UX</span>
       </li>
       <li>
-        <img src="~/assets/programmer-icon.png" alt="Programmer" />
+        <img
+          src="~/assets/programmer-icon.png"
+          alt="Programmer"
+          loading="lazy"
+        />
         <span>Programming</span>
       </li>
     </ul>

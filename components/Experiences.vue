@@ -5,6 +5,7 @@
       <img
         src="~/assets/long_line.png"
         alt="Linha acabamento divisão de blocos"
+        loading="lazy"
       />
 
       <h3>Impacta Tecnologia</h3>

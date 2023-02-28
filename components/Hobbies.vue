@@ -4,17 +4,32 @@
     <img
       src="~/assets/short_line.png"
       alt="Linha acabamento divisão de blocos"
+      loading="lazy"
     />
 
     <ul>
       <li>
-        <span><img src="~/assets/joystick.png" alt="Video Games" />Games</span>
+        <span
+          ><img
+            src="~/assets/joystick.png"
+            alt="Video Games"
+            loading="lazy"
+          />Games</span
+        >
       </li>
       <li>
-        <span><img src="~/assets/icon_movie.png" alt="Movies" />Movies</span>
+        <span
+          ><img
+            src="~/assets/icon_movie.png"
+            alt="Movies"
+            loading="lazy"
+          />Movies</span
+        >
       </li>
       <li>
-        <span><img src="~/assets/icon_dj.png" alt="DJ" />DJ</span>
+        <span
+          ><img src="~/assets/icon_dj.png" alt="DJ" loading="lazy" />DJ</span
+        >
       </li>
     </ul>
   </div>

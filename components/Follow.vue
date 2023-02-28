@@ -4,6 +4,7 @@
     <img
       src="~/assets/short_line.png"
       alt="Linha acabamento divisão de blocos"
+      loading="lazy"
     />
 
     <ul>
@@ -12,7 +13,11 @@
           href="https://www.linkedin.com/in/wagner-ramos-53a3116/"
           target="_blank"
           title="Linkedin"
-          ><img src="~/assets/linkedin.png" alt="Linkedin" />Linkedin</a
+          ><img
+            src="~/assets/linkedin.png"
+            alt="Linkedin"
+            loading="lazy"
+          />Linkedin</a
         >
       </li>
       <li>
@@ -20,7 +25,11 @@
           href="http://www.wagneramos.com.br"
           target="_blank"
           title="Portfolio Online"
-          ><img src="~/assets/site.png" alt="Visite Portfolio" />Website</a
+          ><img
+            src="~/assets/site.png"
+            alt="Visite Portfolio"
+            loading="lazy"
+          />Website</a
         >
       </li>
     </ul>

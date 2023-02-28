@@ -4,6 +4,7 @@
     <img
       src="~/assets/short_line.png"
       alt="Linha acabamento divisão de blocos"
+      loading="lazy"
     />
 
     <ul>
@@ -15,30 +16,35 @@
           alt="Language English"
           data-aos="zoom-in"
           data-aos-delay="850"
+          loading="lazy"
         />
         <img
           src="~/assets/full_bullet.png"
           alt="Language English"
           data-aos="zoom-in"
           data-aos-delay="900"
+          loading="lazy"
         />
         <img
           src="~/assets/full_bullet.png"
           alt="Language English"
           data-aos="zoom-in"
           data-aos-delay="950"
+          loading="lazy"
         />
         <img
           src="~/assets/full_bullet.png"
           alt="Language English"
           data-aos="zoom-in"
           data-aos-delay="1000"
+          loading="lazy"
         />
         <img
           src="~/assets/empty_bullet.png"
           alt="Language English"
           data-aos="zoom-in"
           data-aos-delay="1050"
+          loading="lazy"
         />
       </li>
       <li>
@@ -49,30 +55,35 @@
           alt="Language Spanish"
           data-aos="zoom-in"
           data-aos-delay="1100"
+          loading="lazy"
         />
         <img
           src="~/assets/full_bullet.png"
           alt="Language Spanish"
           data-aos="zoom-in"
           data-aos-delay="1150"
+          loading="lazy"
         />
         <img
           src="~/assets/full_bullet.png"
           alt="Language Spanish"
           data-aos="zoom-in"
           data-aos-delay="1200"
+          loading="lazy"
         />
         <img
           src="~/assets/full_bullet.png"
           alt="Language Spanish"
           data-aos="zoom-in"
           data-aos-delay="1250"
+          loading="lazy"
         />
         <img
           src="~/assets/empty_bullet.png"
           alt="Language Spanish"
           data-aos="zoom-in"
           data-aos-delay="1300"
+          loading="lazy"
         />
       </li>
       <li>
@@ -83,30 +94,35 @@
           alt="Language German"
           data-aos="zoom-in"
           data-aos-delay="1350"
+          loading="lazy"
         />
         <img
           src="~/assets/full_bullet.png"
           alt="Language German"
           data-aos="zoom-in"
           data-aos-delay="1400"
+          loading="lazy"
         />
         <img
           src="~/assets/full_bullet.png"
           alt="Language German"
           data-aos="zoom-in"
           data-aos-delay="1450"
+          loading="lazy"
         />
         <img
           src="~/assets/empty_bullet.png"
           alt="Language German"
           data-aos="zoom-in"
           data-aos-delay="1500"
+          loading="lazy"
         />
         <img
           src="~/assets/empty_bullet.png"
           alt="Language German"
           data-aos="zoom-in"
           data-aos-delay="1550"
+          loading="lazy"
         />
       </li>
     </ul>

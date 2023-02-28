@@ -6,6 +6,7 @@
         src="~/assets/print-icon.png"
         alt="Print"
         title="Print version"
+        loading="lazy"
         @click="print"
       />
     </p>
